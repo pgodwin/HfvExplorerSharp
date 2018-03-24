@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <RootNamespace>HfvExplorerSharp</RootNamespace>
+    <PackageVersion>1.0</PackageVersion>
+    <Title>HfvExplorerSharp</Title>
+    <Copyright>Copyright © 2018</Copyright>
+    <Description>Description of HfvExplorerSharp</Description>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="DiscUtils.Containers" Version="0.13.0-alpha" />
+    <PackageReference Include="DiscUtils.HfsPlus" Version="0.13.0-alpha" />
+    <PackageReference Include="Eto.Forms" Version="2.4.1" />
+  </ItemGroup>
+  
+</Project>
